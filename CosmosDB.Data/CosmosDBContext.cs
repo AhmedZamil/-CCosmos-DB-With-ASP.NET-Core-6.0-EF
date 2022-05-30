@@ -24,9 +24,9 @@ namespace CosmosDB.Data
         {
             modelBuilder.HasManualThroughput(600);
 
-            //modelBuilder.Entity<Address>()
-            //  .Property(address => address.HouseNumber)
-            //  .ToJsonProperty("StreetHouseNumber");
+            modelBuilder.Entity<Address>()
+              .Property(address => address.HouseNumber)
+              .ToJsonProperty("StreetHouseNumber");
 
             // implicit:
 
@@ -36,11 +36,11 @@ namespace CosmosDB.Data
             // modelBuilder.Entity<Driver>()
             //   .OwnsMany(driver => driver.Trips);
 
-            //modelBuilder.Entity<Address>()
-            //  .HasNoDiscriminator()
-            //  .ToContainer(nameof(Address))
-            //  .HasPartitionKey(address => address.State)
-            //  .HasKey(address => address.AddressId);
+            modelBuilder.Entity<Address>()
+              .HasNoDiscriminator()
+              .ToContainer(nameof(Address))
+              .HasPartitionKey(address => address.State)
+              .HasKey(address => address.AddressId);
 
             modelBuilder.Entity<Driver>()
               .HasNoDiscriminator()
