@@ -14,7 +14,7 @@ namespace CosmosDB.Domain
         public DateTime EmploymentBeginUtc { get; set; }
         public DateTime? EmploymentEndUtc { get; set; }
 
-        public string AddressId { get; set; }
+        //public string AddressId { get; set; }
         public Address Address { get; set; }
         public IList<Trip> Trips { get; set; } = new List<Trip>();
     }

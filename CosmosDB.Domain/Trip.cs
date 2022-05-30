@@ -17,9 +17,9 @@ namespace CosmosDB.Domain
         public Driver Driver { get; set; }
         public string VehicleId { get; set; }
         public Vehicle Vehicle { get; set; }
-        public string FromAddressId { get; set; }
+        //public string FromAddressId { get; set; }
         public Address FromAddress { get; set; }
-        public string ToAddressId { get; set; }
+        //public string ToAddressId { get; set; }
         public Address ToAddress { get; set; }
     }
 }
