@@ -1,0 +1,12 @@
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\bin\Debug\net6.0\CosmosDB.Domain.deps.json
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\bin\Debug\net6.0\CosmosDB.Domain.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\bin\Debug\net6.0\CosmosDB.Domain.pdb
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\CosmosDB.Domain.csproj.AssemblyReference.cache
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\CosmosDB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\CosmosDB.Domain.AssemblyInfoInputs.cache
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\CosmosDB.Domain.AssemblyInfo.cs
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\CosmosDB.Domain.csproj.CoreCompileInputs.cache
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\CosmosDB.Domain.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\refint\CosmosDB.Domain.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\CosmosDB.Domain.pdb
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Domain\obj\Debug\net6.0\ref\CosmosDB.Domain.dll

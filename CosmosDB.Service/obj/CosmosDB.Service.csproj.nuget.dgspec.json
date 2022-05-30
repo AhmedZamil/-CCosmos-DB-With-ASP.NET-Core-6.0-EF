@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Service\\CosmosDB.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Data\\CosmosDB.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Data\\CosmosDB.Data.csproj",
+        "projectName": "CosmosDB.Data",
+        "projectPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Data\\CosmosDB.Data.csproj",
+        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
+        "outputPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\CosmosDB.Domain.csproj": {
+                "projectPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\CosmosDB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\CosmosDB.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\CosmosDB.Domain.csproj",
+        "projectName": "CosmosDB.Domain",
+        "projectPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\CosmosDB.Domain.csproj",
+        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
+        "outputPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Service\\CosmosDB.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Service\\CosmosDB.Service.csproj",
+        "projectName": "CosmosDB.Service",
+        "projectPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Service\\CosmosDB.Service.csproj",
+        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
+        "outputPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Data\\CosmosDB.Data.csproj": {
+                "projectPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Data\\CosmosDB.Data.csproj"
+              },
+              "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\CosmosDB.Domain.csproj": {
+                "projectPath": "E:\\1.1WORKSHOP\\Practice Lab\\MAY\\EF Core with Cosmos DB\\CosmosDB.Domain\\CosmosDB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

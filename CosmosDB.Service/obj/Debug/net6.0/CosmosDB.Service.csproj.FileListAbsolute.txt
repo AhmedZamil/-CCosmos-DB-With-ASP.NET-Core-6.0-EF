@@ -1,0 +1,17 @@
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\bin\Debug\net6.0\CosmosDB.Service.deps.json
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\bin\Debug\net6.0\CosmosDB.Service.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\bin\Debug\net6.0\CosmosDB.Service.pdb
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\bin\Debug\net6.0\CosmosDB.Data.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\bin\Debug\net6.0\CosmosDB.Domain.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\bin\Debug\net6.0\CosmosDB.Data.pdb
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\bin\Debug\net6.0\CosmosDB.Domain.pdb
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.csproj.AssemblyReference.cache
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.AssemblyInfoInputs.cache
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.AssemblyInfo.cs
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.csproj.CoreCompileInputs.cache
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.csproj.CopyComplete
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\refint\CosmosDB.Service.dll
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\CosmosDB.Service.pdb
+E:\1.1WORKSHOP\Practice Lab\MAY\EF Core with Cosmos DB\CosmosDB.Service\obj\Debug\net6.0\ref\CosmosDB.Service.dll
