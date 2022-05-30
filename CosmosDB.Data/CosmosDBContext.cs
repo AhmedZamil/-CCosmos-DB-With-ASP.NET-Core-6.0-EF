@@ -21,20 +21,43 @@ namespace CosmosDB.Data
         public DbSet<Vehicle> Vehicles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        { 
-          base.OnModelCreating(modelBuilder);
-
-            modelBuilder.HasManualThroughput(400);
-            modelBuilder.HasDefaultContainer("AllInOne");
+        {
+            modelBuilder.HasManualThroughput(600);
 
             modelBuilder.Entity<Address>()
-                .Property(address => address.HouseNumber)
-                .ToJsonProperty("StreetHouseNumber");
+              .Property(address => address.HouseNumber)
+              .ToJsonProperty("StreetHouseNumber");
 
-            modelBuilder.Entity<Address>().HasNoDiscriminator().ToContainer(nameof(Address)).HasPartitionKey(address => address.State);
-            modelBuilder.Entity<Driver>().HasNoDiscriminator().ToContainer(nameof(Driver));
-            modelBuilder.Entity<Vehicle>().HasNoDiscriminator().ToContainer(nameof(Vehicle)).HasPartitionKey(vehicle=>vehicle.Make);
-            modelBuilder.Entity<Trip>().HasNoDiscriminator().ToContainer(nameof(Trip));
+            // implicit:
+
+            // modelBuilder.Entity<Driver>()
+            //   .OwnsOne(driver => driver.Address);
+
+            // modelBuilder.Entity<Driver>()
+            //   .OwnsMany(driver => driver.Trips);
+
+            modelBuilder.Entity<Address>()
+              .HasNoDiscriminator()
+              .ToContainer(nameof(Address))
+              .HasPartitionKey(address => address.State)
+              .HasKey(address => address.AddressId);
+
+            modelBuilder.Entity<Driver>()
+              .HasNoDiscriminator()
+              .ToContainer(nameof(Driver))
+              .HasKey(driver => driver.DriverId);
+
+            modelBuilder.Entity<Vehicle>()
+              .HasNoDiscriminator()
+              .ToContainer(nameof(Vehicle))
+              .HasPartitionKey(vehicle => vehicle.Make)
+              .HasKey(vehicle => vehicle.VehicleId);
+
+            modelBuilder.Entity<Trip>()
+              .HasNoDiscriminator()
+              .ToContainer(nameof(Trip))
+              .HasPartitionKey(trip => trip.VehicleId)
+              .HasKey(trip => trip.TripId);
 
         }
 

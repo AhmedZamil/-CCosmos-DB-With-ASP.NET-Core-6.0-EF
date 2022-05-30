@@ -43,6 +43,17 @@ services.AddSingleton<CosmosDB.Service.WriteLine>((text, highlight, isException)
     Console.ResetColor();
 });
 
+services.AddSingleton< CosmosDB.Service.WaitForNext >(actionName =>
+{
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine();
+    Console.WriteLine($"Press ENTER to run {actionName}");
+    //Console.ReadLine();
+    //Console.Clear();
+    Console.WriteLine($"{actionName}:");
+    Console.ResetColor();
+});
+
 
 var serviceProvider = services.BuildServiceProvider();
 var cosmosService = serviceProvider.GetRequiredService<CosmosService>();
